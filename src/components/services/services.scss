@@ -12,6 +12,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    
 
     @include mobile {
       align-self: center;
@@ -22,7 +23,7 @@
     p {
       font-weight: 200;
       font-size: 20px;
-      color: gray;
+      color: #DCD7C9;
       text-align: right;
     }
 
@@ -49,6 +50,7 @@
     .title {
       display: flex;
       align-items: center;
+      color: #DCD7C9;
       gap: 50px;
 
       @include mobile {
@@ -72,6 +74,7 @@
       h1 {
         font-size: 96px;
         font-weight: 100;
+        color: #DCD7C9;
 
         @include mobile {
           font-size: 36px;
